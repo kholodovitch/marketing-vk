@@ -1,8 +1,12 @@
 language: java
 
+branches:
+  only:
+    - develop
+    - master
+
 jdk:
   - oraclejdk8
-  - openjdk8
 
 after_success:
   - chmod +x deploy.sh
