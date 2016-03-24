@@ -3,9 +3,6 @@ package com.nonamedevelopment.marketing.vk;
 import java.util.Locale;
 
 import com.google.common.eventbus.Subscribe;
-import com.vaadin.annotations.Theme;
-import com.vaadin.annotations.Title;
-import com.vaadin.annotations.Widgetset;
 import com.nonamedevelopment.marketing.vk.data.DataProvider;
 import com.nonamedevelopment.marketing.vk.data.dummy.DummyDataProvider;
 import com.nonamedevelopment.marketing.vk.domain.User;
@@ -16,6 +13,9 @@ import com.nonamedevelopment.marketing.vk.event.DashboardEvent.UserLoginRequeste
 import com.nonamedevelopment.marketing.vk.event.DashboardEventBus;
 import com.nonamedevelopment.marketing.vk.view.LoginView;
 import com.nonamedevelopment.marketing.vk.view.MainView;
+import com.vaadin.annotations.Theme;
+import com.vaadin.annotations.Title;
+import com.vaadin.annotations.Widgetset;
 import com.vaadin.server.Page;
 import com.vaadin.server.Page.BrowserWindowResizeEvent;
 import com.vaadin.server.Page.BrowserWindowResizeListener;
