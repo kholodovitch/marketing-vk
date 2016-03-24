@@ -138,7 +138,7 @@ public abstract class DummyDataGenerator {
         n2.setPrettyTime("2 days ago");
         n2.setContent(randomText(10));
 
-        return Arrays.asList(n1, n2);
+        return Arrays.asList();
     }
 
     public static int[] randomSparklineValues(int howMany, int min, int max) {

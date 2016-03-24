@@ -28,7 +28,7 @@ import com.vaadin.ui.themes.ValoTheme;
 
 @Theme("dashboard")
 @Widgetset("com.nonamedevelopment.marketing.vk.DashboardWidgetSet")
-@Title("QuickTickets Dashboard")
+@Title("Marketing VK")
 @SuppressWarnings("serial")
 public final class DashboardUI extends UI {
 

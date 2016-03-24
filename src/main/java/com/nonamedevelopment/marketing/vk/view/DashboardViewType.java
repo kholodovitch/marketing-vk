@@ -1,12 +1,14 @@
 package com.nonamedevelopment.marketing.vk.view;
 
 import com.nonamedevelopment.marketing.vk.view.dashboard.DashboardView;
+import com.nonamedevelopment.marketing.vk.view.users.UsersView;
 import com.vaadin.navigator.View;
 import com.vaadin.server.FontAwesome;
 import com.vaadin.server.Resource;
 
 public enum DashboardViewType {
-    DASHBOARD("dashboard", DashboardView.class, FontAwesome.HOME, true);
+    DASHBOARD("dashboard", DashboardView.class, FontAwesome.HOME, true), 
+    USERS("users", UsersView.class, FontAwesome.USERS, true), ;
 
     private final String viewName;
     private final Class<? extends View> viewClass;

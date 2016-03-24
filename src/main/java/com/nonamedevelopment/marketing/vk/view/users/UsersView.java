@@ -1,4 +1,4 @@
-package com.nonamedevelopment.marketing.vk.view.dashboard;
+package com.nonamedevelopment.marketing.vk.view.users;
 
 import com.nonamedevelopment.marketing.vk.event.DashboardEvent.CloseOpenWindowsEvent;
 import com.nonamedevelopment.marketing.vk.event.DashboardEventBus;
@@ -16,16 +16,16 @@ import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.themes.ValoTheme;
 
 @SuppressWarnings("serial")
-public final class DashboardView extends Panel implements View {
+public final class UsersView extends Panel implements View {
 
-    public static final String EDIT_ID = "dashboard-edit";
-    public static final String TITLE_ID = "dashboard-title";
+    public static final String EDIT_ID = "users-edit";
+    public static final String TITLE_ID = "users-title";
 
     private Label titleLabel;
-    private CssLayout dashboardPanels;
+    private CssLayout usersPanels;
     private final VerticalLayout root;
 
-    public DashboardView() {
+    public UsersView() {
         addStyleName(ValoTheme.PANEL_BORDERLESS);
         setSizeFull();
         DashboardEventBus.register(this);
@@ -33,7 +33,7 @@ public final class DashboardView extends Panel implements View {
         root = new VerticalLayout();
         root.setSizeFull();
         root.setMargin(true);
-        root.addStyleName("dashboard-view");
+        root.addStyleName("dashboard-users-view");
         setContent(root);
         Responsive.makeResponsive(root);
 
@@ -69,7 +69,7 @@ public final class DashboardView extends Panel implements View {
         header.addStyleName("viewheader");
         header.setSpacing(true);
 
-        titleLabel = new Label("Сводный отчёт");
+        titleLabel = new Label("Пользователи");
         titleLabel.setId(TITLE_ID);
         titleLabel.setSizeUndefined();
         titleLabel.addStyleName(ValoTheme.LABEL_H1);
@@ -80,11 +80,11 @@ public final class DashboardView extends Panel implements View {
     }
 
     private Component buildContent() {
-        dashboardPanels = new CssLayout();
-        dashboardPanels.addStyleName("dashboard-panels");
-        Responsive.makeResponsive(dashboardPanels);
+        usersPanels = new CssLayout();
+        usersPanels.addStyleName("users-panels");
+        Responsive.makeResponsive(usersPanels);
 
-        return dashboardPanels;
+        return usersPanels;
     }
 
     @Override

@@ -1,4 +1,10 @@
 @mixin dashboard-dashboard-view {
+    
+  #dashboard-menu {
+	-webkit-animation: none;
+	-moz-animation: none;
+	animation: none;
+  }
 
   .dashboard-view.dashboard-view {
     padding: $view-padding;
