@@ -31,4 +31,4 @@ out/
 .vscode
 
 ### Vaadin ###
-/src/main/webapp/VAADIN/themes/dashboard/styles.css
+/marketing-vk.adminpanel-ui/src/main/webapp/VAADIN/themes/dashboard/styles.css
