@@ -1,4 +1,4 @@
-package com.nonamedevelopment.marketing.vk;
+package com.nonamedev.marketing.vk.adminpanel;
 
 import javax.servlet.ServletException;
 

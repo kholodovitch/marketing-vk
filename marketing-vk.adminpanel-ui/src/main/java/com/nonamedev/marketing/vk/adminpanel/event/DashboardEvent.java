@@ -1,8 +1,8 @@
-package com.nonamedevelopment.marketing.vk.event;
+package com.nonamedev.marketing.vk.adminpanel.event;
 
 import java.util.Collection;
 
-import com.nonamedevelopment.marketing.vk.view.DashboardViewType;
+import com.nonamedev.marketing.vk.adminpanel.view.DashboardViewType;
 
 /*
  * Event bus events used in Dashboard are listed here as inner classes.

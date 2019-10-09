@@ -11,10 +11,10 @@
 	</context-param>
 	<servlet>
 		<servlet-name>Dashboard</servlet-name>
-		<servlet-class>com.nonamedevelopment.marketing.vk.DashboardServlet</servlet-class>
+		<servlet-class>com.nonamedev.marketing.vk.adminpanel.DashboardServlet</servlet-class>
 		<init-param>
 			<param-name>UI</param-name>
-			<param-value>com.nonamedevelopment.marketing.vk.DashboardUI</param-value>
+			<param-value>com.nonamedev.marketing.vk.adminpanel.DashboardUI</param-value>
 		</init-param>
 	</servlet>
 	<servlet-mapping>

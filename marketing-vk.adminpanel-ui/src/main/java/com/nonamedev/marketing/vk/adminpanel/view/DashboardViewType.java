@@ -1,7 +1,7 @@
-package com.nonamedevelopment.marketing.vk.view;
+package com.nonamedev.marketing.vk.adminpanel.view;
 
-import com.nonamedevelopment.marketing.vk.view.dashboard.DashboardView;
-import com.nonamedevelopment.marketing.vk.view.users.UsersView;
+import com.nonamedev.marketing.vk.adminpanel.view.dashboard.DashboardView;
+import com.nonamedev.marketing.vk.adminpanel.view.users.UsersView;
 import com.vaadin.navigator.View;
 import com.vaadin.server.FontAwesome;
 import com.vaadin.server.Resource;

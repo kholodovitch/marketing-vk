@@ -1,9 +1,9 @@
-package com.nonamedevelopment.marketing.vk.event;
+package com.nonamedev.marketing.vk.adminpanel.event;
 
 import com.google.common.eventbus.EventBus;
 import com.google.common.eventbus.SubscriberExceptionContext;
 import com.google.common.eventbus.SubscriberExceptionHandler;
-import com.nonamedevelopment.marketing.vk.DashboardUI;
+import com.nonamedev.marketing.vk.adminpanel.DashboardUI;
 
 /**
  * A simple wrapper for Guava event bus. Defines static convenience methods for

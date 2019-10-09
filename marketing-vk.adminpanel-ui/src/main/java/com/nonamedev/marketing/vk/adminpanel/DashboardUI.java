@@ -1,18 +1,18 @@
-package com.nonamedevelopment.marketing.vk;
+package com.nonamedev.marketing.vk.adminpanel;
 
 import java.util.Locale;
 
 import com.google.common.eventbus.Subscribe;
-import com.nonamedevelopment.marketing.vk.data.DataProvider;
-import com.nonamedevelopment.marketing.vk.data.dummy.DummyDataProvider;
-import com.nonamedevelopment.marketing.vk.domain.User;
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.BrowserResizeEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.CloseOpenWindowsEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.UserLoggedOutEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.UserLoginRequestedEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEventBus;
-import com.nonamedevelopment.marketing.vk.view.LoginView;
-import com.nonamedevelopment.marketing.vk.view.MainView;
+import com.nonamedev.marketing.vk.adminpanel.data.DataProvider;
+import com.nonamedev.marketing.vk.adminpanel.data.dummy.DummyDataProvider;
+import com.nonamedev.marketing.vk.adminpanel.domain.User;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEventBus;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.BrowserResizeEvent;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.CloseOpenWindowsEvent;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.UserLoggedOutEvent;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.UserLoginRequestedEvent;
+import com.nonamedev.marketing.vk.adminpanel.view.LoginView;
+import com.nonamedev.marketing.vk.adminpanel.view.MainView;
 import com.vaadin.annotations.Theme;
 import com.vaadin.annotations.Title;
 import com.vaadin.annotations.Widgetset;
@@ -27,7 +27,7 @@ import com.vaadin.ui.Window;
 import com.vaadin.ui.themes.ValoTheme;
 
 @Theme("dashboard")
-@Widgetset("com.nonamedevelopment.marketing.vk.DashboardWidgetSet")
+@Widgetset("com.nonamedev.marketing.vk.adminpanel.DashboardWidgetSet")
 @Title("Marketing VK")
 @SuppressWarnings("serial")
 public final class DashboardUI extends UI {

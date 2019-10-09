@@ -1,7 +1,7 @@
-package com.nonamedevelopment.marketing.vk.view;
+package com.nonamedev.marketing.vk.adminpanel.view;
 
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.UserLoginRequestedEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEventBus;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEventBus;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.UserLoginRequestedEvent;
 import com.vaadin.event.ShortcutAction.KeyCode;
 import com.vaadin.server.FontAwesome;
 import com.vaadin.server.Responsive;

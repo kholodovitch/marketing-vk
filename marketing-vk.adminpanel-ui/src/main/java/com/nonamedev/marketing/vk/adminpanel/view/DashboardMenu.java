@@ -1,17 +1,17 @@
-package com.nonamedevelopment.marketing.vk.view;
+package com.nonamedev.marketing.vk.adminpanel.view;
 
 import java.util.Collection;
 
 import com.google.common.eventbus.Subscribe;
-import com.nonamedevelopment.marketing.vk.DashboardUI;
-import com.nonamedevelopment.marketing.vk.component.ProfilePreferencesWindow;
-import com.nonamedevelopment.marketing.vk.domain.User;
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.NotificationsCountUpdatedEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.PostViewChangeEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.ProfileUpdatedEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.ReportsCountUpdatedEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.UserLoggedOutEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEventBus;
+import com.nonamedev.marketing.vk.adminpanel.DashboardUI;
+import com.nonamedev.marketing.vk.adminpanel.component.ProfilePreferencesWindow;
+import com.nonamedev.marketing.vk.adminpanel.domain.User;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEventBus;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.NotificationsCountUpdatedEvent;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.PostViewChangeEvent;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.ProfileUpdatedEvent;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.ReportsCountUpdatedEvent;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.UserLoggedOutEvent;
 import com.vaadin.event.dd.DragAndDropEvent;
 import com.vaadin.event.dd.DropHandler;
 import com.vaadin.event.dd.acceptcriteria.AcceptCriterion;

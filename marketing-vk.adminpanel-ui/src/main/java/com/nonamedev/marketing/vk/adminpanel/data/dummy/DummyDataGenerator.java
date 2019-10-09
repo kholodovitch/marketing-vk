@@ -1,9 +1,9 @@
-package com.nonamedevelopment.marketing.vk.data.dummy;
+package com.nonamedev.marketing.vk.adminpanel.data.dummy;
 
 import java.util.Arrays;
 import java.util.Collection;
 
-import com.nonamedevelopment.marketing.vk.domain.DashboardNotification;
+import com.nonamedev.marketing.vk.adminpanel.domain.DashboardNotification;
 
 public abstract class DummyDataGenerator {
 

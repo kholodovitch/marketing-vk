@@ -1,4 +1,4 @@
-package com.nonamedevelopment.marketing.vk.component;
+package com.nonamedev.marketing.vk.adminpanel.component;
 
 import java.util.Iterator;
 

@@ -1,10 +1,10 @@
-package com.nonamedevelopment.marketing.vk.data;
+package com.nonamedev.marketing.vk.adminpanel.data;
 
 import java.util.Collection;
 import java.util.Date;
 
-import com.nonamedevelopment.marketing.vk.domain.DashboardNotification;
-import com.nonamedevelopment.marketing.vk.domain.User;
+import com.nonamedev.marketing.vk.adminpanel.domain.DashboardNotification;
+import com.nonamedev.marketing.vk.adminpanel.domain.User;
 
 /**
  * QuickTickets Dashboard backend API.

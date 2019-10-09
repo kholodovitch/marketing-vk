@@ -1,12 +1,12 @@
-package com.nonamedevelopment.marketing.vk.component;
+package com.nonamedev.marketing.vk.adminpanel.component;
 
+import com.nonamedev.marketing.vk.adminpanel.domain.User;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEventBus;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.CloseOpenWindowsEvent;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.ProfileUpdatedEvent;
 import com.vaadin.data.fieldgroup.BeanFieldGroup;
 import com.vaadin.data.fieldgroup.FieldGroup.CommitException;
 import com.vaadin.data.fieldgroup.PropertyId;
-import com.nonamedevelopment.marketing.vk.domain.User;
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.CloseOpenWindowsEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.ProfileUpdatedEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEventBus;
 import com.vaadin.event.ShortcutAction.KeyCode;
 import com.vaadin.server.FontAwesome;
 import com.vaadin.server.Page;

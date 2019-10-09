@@ -1,10 +1,10 @@
-package com.nonamedevelopment.marketing.vk;
+package com.nonamedev.marketing.vk.adminpanel;
 
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.BrowserResizeEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.CloseOpenWindowsEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.PostViewChangeEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEventBus;
-import com.nonamedevelopment.marketing.vk.view.DashboardViewType;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEventBus;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.BrowserResizeEvent;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.CloseOpenWindowsEvent;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.PostViewChangeEvent;
+import com.nonamedev.marketing.vk.adminpanel.view.DashboardViewType;
 import com.vaadin.navigator.Navigator;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;

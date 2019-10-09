@@ -1,13 +1,13 @@
-package com.nonamedevelopment.marketing.vk.data.dummy;
+package com.nonamedev.marketing.vk.adminpanel.data.dummy;
 
 import java.util.Collection;
 import java.util.Collections;
 
 import com.google.common.base.Predicate;
 import com.google.common.collect.Collections2;
-import com.nonamedevelopment.marketing.vk.data.DataProvider;
-import com.nonamedevelopment.marketing.vk.domain.DashboardNotification;
-import com.nonamedevelopment.marketing.vk.domain.User;
+import com.nonamedev.marketing.vk.adminpanel.data.DataProvider;
+import com.nonamedev.marketing.vk.adminpanel.domain.DashboardNotification;
+import com.nonamedev.marketing.vk.adminpanel.domain.User;
 
 /**
  * A dummy implementation for the backend API.

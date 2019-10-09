@@ -1,6 +1,6 @@
-package com.nonamedevelopment.marketing.vk.view;
+package com.nonamedev.marketing.vk.adminpanel.view;
 
-import com.nonamedevelopment.marketing.vk.DashboardNavigator;
+import com.nonamedev.marketing.vk.adminpanel.DashboardNavigator;
 import com.vaadin.ui.ComponentContainer;
 import com.vaadin.ui.CssLayout;
 import com.vaadin.ui.HorizontalLayout;

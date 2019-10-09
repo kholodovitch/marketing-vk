@@ -1,7 +1,7 @@
-package com.nonamedevelopment.marketing.vk.view.dashboard;
+package com.nonamedev.marketing.vk.adminpanel.view.dashboard;
 
-import com.nonamedevelopment.marketing.vk.event.DashboardEvent.CloseOpenWindowsEvent;
-import com.nonamedevelopment.marketing.vk.event.DashboardEventBus;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEventBus;
+import com.nonamedev.marketing.vk.adminpanel.event.DashboardEvent.CloseOpenWindowsEvent;
 import com.vaadin.event.LayoutEvents.LayoutClickEvent;
 import com.vaadin.event.LayoutEvents.LayoutClickListener;
 import com.vaadin.navigator.View;

@@ -1,4 +1,4 @@
-package com.nonamedevelopment.marketing.vk.domain;
+package com.nonamedev.marketing.vk.adminpanel.domain;
 
 public final class User {
     private String role;
